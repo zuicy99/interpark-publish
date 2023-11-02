@@ -1,0 +1,55 @@
+{
+  "total": 7,
+  "good_1": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/tk1.gif",
+    "title": "제목입니다.",
+    "desc": "설명입니다.",
+    "date": "yyyy.mm.dd - yyyy.mm.dd",
+    "url": "a.html"
+  },
+  "good_8": {
+    "url": "go.html"
+  }
+}

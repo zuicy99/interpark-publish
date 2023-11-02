@@ -1,0 +1,69 @@
+.book {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+.book-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto; /* 중앙에 배치 */
+}
+.book-header {
+  position: relative;
+}
+.book-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.book-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a0a7;
+  text-align: center;
+}
+
+/* --------도서 카테고리 메인/카테고리/리스트----------- */
+.book-main {
+  position: relative;
+  margin: 25px 0;
+}
+.book-category {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.book-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.book-list li {
+  position: relative;
+}
+.book-cate-bt {
+  position: relative;
+  display: block;
+
+  padding: 0px 20px;
+  line-height: 42px;
+  border: 1px solid #e5e5e5;
+  border-radius: 44px;
+  cursor: pointer;
+}
+.book-cate-bt-active {
+  position: relative;
+}
+
+/* --------슬라이드 사진----------- */
+.book-slide-wrap {
+  position: relative;
+  margin-top: 23px;
+  height: 400px;
+  background-color: antiquewhite;
+}

@@ -1,0 +1,118 @@
+{
+  "total": 12,
+
+  "live_1": {
+    "live-info": {
+      "image": "images/live_1.jpg",
+      "state": "방송예정",
+      "title": "소담상회 X 에이브랩",
+      "url": "c.html"
+    },
+
+    "live-day": {
+      "date": "10월 31일 (화)",
+      "time": "16:00"
+    },
+
+    "live-good": {
+      "good_image": "images/live_2.jpg",
+      "good_title": "[10.31] ~",
+      "good_discount": 12,
+      "good_price": 35000,
+      "good_url": "good.html"
+    }
+  },
+  "live_2": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_3": {
+    "image": "images/live_1.jpg",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "",
+    "time": "",
+    "url": "c.html",
+    "good_image": "image/l",
+    "good_title": "[10.31] ~",
+    "good_discount": 12,
+    "good_price": 35000,
+    "good_url": "good.html"
+  },
+  "live_4": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_5": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_6": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_7": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_8": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_9": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_10": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_11": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  },
+  "live_12": {
+    "image": "images/live",
+    "state": "방송예정",
+    "brand": "소담상회 X 에이브랩",
+    "date": "10월 31일 (화)",
+    "time": "16:00",
+    "url": "c.html"
+  }
+}

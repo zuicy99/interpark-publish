@@ -1,0 +1,75 @@
+{
+  "total": 9,
+  "good_1": {
+    "image": "images/t1.jpg",
+    "title": "디럭스 킹 정원뷰",
+    "desc": "소테츠 그랜드 프레사 오사가 남바",
+    "price": 34000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_2": {
+    "image": "images/t2.jpg",
+    "title": "디럭스 킹 정원뷰",
+    "desc": "롤링힐스 호텔",
+    "price": 189000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_3": {
+    "image": "images/t3.jpg",
+    "title": "디럭스 킹 정원뷰",
+    "desc": "[런던Pack] 찐 런던 & 토트넘 직관 경기_6박8일",
+    "price": 120000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_4": {
+    "image": "images/r1.jpg",
+    "title": "제품명 입니다.",
+    "desc": "설명입니다.",
+    "price": 26000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_5": {
+    "image": "images/r1.jpg",
+    "title": "제품명 입니다.",
+    "desc": "설명입니다.",
+    "price": 26000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_6": {
+    "image": "images/r1.jpg",
+    "title": "제품명 입니다.",
+    "desc": "설명입니다.",
+    "price": 26000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_7": {
+    "image": "images/r1.jpg",
+    "title": "제품명 입니다.",
+    "desc": "설명입니다.",
+    "price": 26000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_8": {
+    "image": "images/r1.jpg",
+    "title": "제품명 입니다.",
+    "desc": "설명입니다.",
+    "price": 26000,
+    "won": "원",
+    "url": "a.html"
+  },
+  "good_9": {
+    "image": "images/r1.jpg",
+    "title": "제품명 입니다.",
+    "desc": "설명입니다.",
+    "price": 26000,
+    "won": "원",
+    "url": "a.html"
+  }
+}

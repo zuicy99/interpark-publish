@@ -1,0 +1,177 @@
+.tiket {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+.tiket-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.tiket-header {
+  position: relative;
+}
+.tiket-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+.tiket-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.tiket-main {
+  position: relative;
+  padding: 25px 0; /* 위 아래 25 좌우 0 */
+}
+.tiket-category {
+  position: relative;
+  display: flex;
+  justify-content: center; /* 가운데 정렬 */
+}
+
+.tiket-list {
+  position: relative;
+  display: flex;
+  gap: 4px; /* 마진이랑 다름, flex일때만 사용가능, 아이템 사이에만 간격들어감 */
+  align-items: center;
+}
+
+.tiket-list li {
+  position: relative;
+}
+
+.tiket-cate-bt {
+  position: relative;
+  display: block;
+
+  padding: 0px 20px;
+
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 42px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+
+.tiket-cate-bt-active {
+  border: 1px solid transparent;
+  background-color: #333;
+  font-weight: 700;
+  color: #fff;
+}
+
+.tiket-slide-wrap {
+  position: relative;
+  height: 534px;
+  margin-top: 23px;
+}
+
+.tiket-slide-item {
+  position: relative;
+  height: 534px;
+  /* border: 1px solid #e8e8e8; */
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+
+.tiket-link {
+  position: relative;
+}
+.tiket-img {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.tiket-img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ticket-info {
+  position: relative;
+  padding: 16px 8px;
+}
+
+.tiket-good-list {
+  position: relative;
+}
+
+.ticket-good-info-tit {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.ticket-good-info-desc {
+  position: relative;
+  /* display: block; */
+  font-size: 1.5rem;
+  margin: 7px 0px;
+  color: #666666;
+}
+
+.ticket-good-info-date {
+  position: relative;
+  font-size: 1.4rem;
+  color: #999999;
+}
+
+.ticket-good-info-boxb {
+  position: relative;
+  display: flex;
+  width: 56px;
+  height: 23px;
+  border: 1px solid blue;
+  border-radius: 3px;
+  padding: 0px 8px;
+  margin-top: 7px;
+  align-items: center;
+
+  color: blue;
+  font-size: 1.1rem;
+}
+
+/* .ticket-good-info-boxb span {
+  position: relative;
+
+  justify-content: center;
+} */
+
+.tiket-footer {
+  position: relative;
+}
+.tiket-footer-bt {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  padding: 0px 20px;
+  line-height: 42px;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 44px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #111;
+  font-weight: 400;
+}

@@ -1,0 +1,40 @@
+.live {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+.live-inner {
+  position: relative;
+
+  width: 1280px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.live-header {
+  position: relative;
+  display: flex;
+  height: 47px;
+  background-color: hotpink;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-logo img {
+  position: relative;
+  width: 154px;
+  height: 40px;
+}
+
+.live-slide-wrap {
+  position: relative;
+  margin-top: 23px;
+  height: 455px;
+  background-color: antiquewhite;
+}
+.live-footer {
+  position: relative;
+}
+
+.live-footer-bt {
+  position: relative;
+}
