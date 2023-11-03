@@ -18,16 +18,24 @@
 // 웹브라우저 코딩하는 위치가 정해져있다고
 // 생각하자.
 // window.load = function () {
-//     코딩자리
-// }
-// window.addEventListener("load", function(){
-//   코딩자리
-// })
-// $(document).ready(function(){
-//    코딩자리
-// })
+//   코딩자리;
+// };
+
+// window.addEventListener("load", function () {
+//   코딩자리;
+// });
+
+// // jQuery 로 html 로딩완료시 실행
+// $(document).ready(function () {
+//   코딩자리;
+// });
 
 window.addEventListener("load", function () {
+  // 숫자에 콤마를 출력한 함수
+  function numberWithCommas(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
   // console.log("추천상품코딩");
   // 추천 상품 슬라이드 기능
   // 글로써 코딩 시나리오 작성 : 의사코드
@@ -35,13 +43,15 @@ window.addEventListener("load", function () {
   // :  외부 데이터 파일명.json
   const fileName = "recommend.json";
 
-  // 외부 데이터 가져올때 작성법
+  // 외부 URL 데이터 가져올때 작성법
+  // fetch, axios
   const xhr = new XMLHttpRequest();
   // 외부의 파일을 열어라
   // Get 방식으로 파일을 열어준다.
   xhr.open("GET", fileName);
   // 실제로 실행하자.
   xhr.send();
+
   // 데이터의 전송 상태를 체크합니다.
   xhr.onreadystatechange = function (event) {
     // console.log("데이터 전송 상태 확인", event.target.readyState);
@@ -82,45 +92,18 @@ window.addEventListener("load", function () {
       const obj = _res["good_" + index];
       // console.log(obj);
 
-      let tempTag = `
-        <div class="swiper-slide">
-          <div class="recommend-slide-item">
-            <a href="${obj.url}" class="recommend-link">
-              <div class="recommend-img">
-                <img src="${obj.image}" alt="${obj.desc}" />
-              </div>
-              <div class="recommend-info">
-                <ul class="recommend-good-list">
-                  <li>
-                    <span class="recommend-good-info-price">
-                      <b>${obj.discount + "%"}</b>
-                      <em>${obj.price}</em>
-                      원
-                    </span>
-                  </li>
-                  <li>
-                    <p class="recommend-good-info-desc">
-                    ${obj.desc}
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </a>
-          </div>
-        </div>
-      `;
+      let tempTag = ``;
 
-      // 마지막 json에서는 url만 읽어들인다.
-      // 그렇지 않으면 일반적으로 모두 출력.
+      // 마지막 json 에서는 url 만 읽어들인다.
+      // 그렇지 않으면 일반적으로 모두 출력한다.
+      // if (i === 11) {
       if (i === _res.total - 1) {
-        // 바로가기 버튼 출력한다.
         tempTag = `
-        <div class="swiper-slide">
-          바로가기
-        </div>
+          <div class="swiper-slide">
+            바로가기
+          </div>
         `;
       } else {
-        // 일반적인 코드를 출력
         tempTag = `
         <div class="swiper-slide">
           <div class="recommend-slide-item">
@@ -132,8 +115,8 @@ window.addEventListener("load", function () {
                 <ul class="recommend-good-list">
                   <li>
                     <span class="recommend-good-info-price">
-                      <b>${obj.discount + "%"}</b>
-                      <em>${obj.price}</em>
+                      <b>${obj.discount === 0 ? "" : obj.discount + "%"}</b>
+                      <em>${numberWithCommas(obj.price)}</em>
                       원
                     </span>
                   </li>
@@ -147,10 +130,10 @@ window.addEventListener("load", function () {
             </a>
           </div>
         </div>
-      `;
+        `;
       }
 
-      // console.log(tempTag);
+      console.log(tempTag);
       // htmlRecommendTag = htmlRecommendTag + tempTag;
       htmlRecommendTag += tempTag;
     }
@@ -176,11 +159,13 @@ window.addEventListener("load", function () {
     const swiperRecommend = new Swiper(".recommend-slide", {
       slidesPerView: 4,
       spaceBetween: 27,
+
       // 좌측, 우측 이동 버튼
       navigation: {
         nextEl: ".recommend-slide-wrap .slide-next-bt",
         prevEl: ".recommend-slide-wrap .slide-prev-bt",
       },
+
       // 4장씩 이동하라.
       slidesPerGroup: 4,
     });

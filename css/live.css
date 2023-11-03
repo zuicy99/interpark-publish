@@ -18,11 +18,17 @@
   justify-content: center;
   align-items: center;
 }
-
-.live-logo img {
+.live-header img {
   position: relative;
+  display: block;
   width: 154px;
   height: 40px;
+}
+.live-main {
+  position: relative;
+  width: 1280px;
+  height: 457px;
+  background-color: antiquewhite;
 }
 
 .live-slide-wrap {
@@ -31,10 +37,56 @@
   height: 455px;
   background-color: antiquewhite;
 }
+
+.live-slide-item {
+  position: relative;
+}
+
+.live-link {
+  position: relative;
+}
+
+.live-img {
+  position: relative;
+  width: 300px;
+  height: 456px;
+  overflow: hidden;
+}
+.live-img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.live-info {
+  position: relative;
+}
+
+.live-good-list {
+  position: relative;
+}
+
+.live-good-info-tit {
+  position: relative;
+}
+
+.live-good-info-desc {
+  position: relative;
+}
+
 .live-footer {
   position: relative;
 }
 
 .live-footer-bt {
   position: relative;
+  /* margin: 0% auto; */
+  margin-top: 20px;
+  /* padding: 0px 20px; */
+
+  border-radius: 44px;
+  background-color: #fff;
+  color: #111;
 }

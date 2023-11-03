@@ -45,6 +45,7 @@
 }
 .book-list li {
   position: relative;
+  gap: 4px;
 }
 .book-cate-bt {
   position: relative;
@@ -64,6 +65,66 @@
 .book-slide-wrap {
   position: relative;
   margin-top: 23px;
-  height: 400px;
-  background-color: antiquewhite;
+  width: 1280px;
+  height: 402px;
+  background-color: red;
+}
+.book-slide-item {
+  position: relative;
+  height: 392px;
+  overflow: hidden;
+  background-color: aqua;
+}
+.book-link {
+  position: relative;
+}
+
+.book-img {
+  position: relative;
+}
+
+.book-img img {
+  position: relative;
+  width: 232px;
+  height: 334px;
+  overflow: hidden;
+}
+
+.book-info {
+  position: relative;
+}
+
+.book-good-list {
+  position: relative;
+}
+.book-good-info-tit {
+  position: relative;
+}
+.book-good-info-price {
+  position: relative;
+}
+
+.book-footer {
+  position: relative;
+  height: 76px;
+  background-color: blue;
+}
+
+.book-footer-bt {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  padding-top: 20px;
+
+  padding: 0 39px;
+  line-height: 42px;
+  width: 198px;
+  height: 56px;
+  border: 1px solid #e5e5e5;
+  border-radius: 44px;
+
+  font-size: 1.4rem;
+  color: #111;
+  font-weight: 400;
 }

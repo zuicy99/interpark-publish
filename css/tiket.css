@@ -71,7 +71,7 @@
   font-weight: 700;
   color: #fff;
 }
-
+/*  슬라이드 사진 */
 .tiket-slide-wrap {
   position: relative;
   height: 534px;
@@ -154,6 +154,13 @@
 
   justify-content: center;
 } */
+
+.tiket-swiper-bt-prev {
+  transform: translate(-50%, calc(-50% - 50px)) !important;
+}
+.tiket-swiper-bt-next {
+  transform: translate(50%, calc(-50% - 50px)) !important;
+}
 
 .tiket-footer {
   position: relative;
