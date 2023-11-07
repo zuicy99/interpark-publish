@@ -1,7 +1,10 @@
 .book {
   position: relative;
-  padding-top: 0;
-  padding-bottom: 90px;
+  padding: 30px 0px 60px;
+  margin: 0px 12px;
+  width: 1280px;
+  height: 714px;
+  margin: 0 auto;
 }
 .book-inner {
   position: relative;
@@ -11,7 +14,7 @@
 .book-header {
   position: relative;
 }
-.book-title {
+.book-tit {
   position: relative;
   margin-bottom: 10px;
   font-size: 2.8rem;
@@ -52,13 +55,22 @@
   display: block;
 
   padding: 0px 20px;
-  line-height: 42px;
+
   border: 1px solid #e5e5e5;
-  border-radius: 44px;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 42px;
+  color: #111;
   cursor: pointer;
+  border-radius: 44px;
 }
 .book-cate-bt-active {
   position: relative;
+  border: 1px solid transparent;
+  background-color: #333;
+  font-weight: 700;
+  color: #fff;
 }
 
 /* --------슬라이드 사진----------- */
@@ -67,13 +79,11 @@
   margin-top: 23px;
   width: 1280px;
   height: 402px;
-  background-color: red;
 }
 .book-slide-item {
   position: relative;
   height: 392px;
   overflow: hidden;
-  background-color: aqua;
 }
 .book-link {
   position: relative;
@@ -87,44 +97,69 @@
   position: relative;
   width: 232px;
   height: 334px;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 .book-info {
   position: relative;
+  height: calc(100% - 344px);
+  padding-top: 10px;
+  text-align: center;
 }
 
 .book-good-list {
   position: relative;
 }
 .book-good-info-tit {
-  position: relative;
+  display: -webkit-box;
+  overflow: hidden;
+  word-break: break-all;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 .book-good-info-price {
   position: relative;
+  /* span은  */
+  display: block;
+  color: #111;
+  font-size: 2rem;
+
+  margin-top: 4px;
+}
+.book-good-info-price em {
+  position: relative;
+  font-weight: 700;
+  font-style: normal;
+}
+.book-swiper-bt-prev {
+  transform: translate(-50%, calc(-50% + -30px)) !important;
+}
+.book-swiper-bt-next {
+  transform: translate(50%, calc(-50% + -30px)) !important;
 }
 
 .book-footer {
   position: relative;
-  height: 76px;
-  background-color: blue;
+  padding: 0px 30px;
 }
-
 .book-footer-bt {
   position: relative;
   display: block;
-  margin: 0 auto;
-  /* margin-top: 20px; */
-  padding-top: 20px;
+  margin: 20px auto;
 
-  padding: 0 39px;
+  padding: 0px 39px;
   line-height: 42px;
   width: 198px;
   height: 56px;
   border: 1px solid #e5e5e5;
   border-radius: 44px;
+  background-color: #fff;
 
   font-size: 1.4rem;
   color: #111;
-  font-weight: 400;
+  font-weight: 600;
+  cursor: pointer;
 }

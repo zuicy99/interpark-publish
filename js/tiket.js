@@ -127,7 +127,7 @@ window.addEventListener("load", function () {
 
       navigation: {
         nextEl: ".tiket-slide-wrap .slide-next-bt",
-        prevEl: ".titket-slide-wrap .slide-prev-bt",
+        prevEl: ".tiket-slide-wrap .slide-prev-bt",
       },
       slidesPerGroup: 4,
     });
