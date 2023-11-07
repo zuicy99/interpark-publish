@@ -1,0 +1,48 @@
+{
+  "total": 7,
+  "book_1": {
+    "image": "images/b1.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_2": {
+    "image": "images/b2.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_3": {
+    "image": "images/b3.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_4": {
+    "image": "images/b4.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_5": {
+    "image": "images/b5.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_6": {
+    "image": "images/b6.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_7": {
+    "image": "images/b7.jpg",
+    "title": "제목입니다.",
+    "price": 6090,
+    "url": "a.html"
+  },
+  "book_8": {
+    "url": "go.html"
+  }
+}
