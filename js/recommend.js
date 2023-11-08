@@ -133,7 +133,7 @@ window.addEventListener("load", function () {
         `;
       }
 
-      console.log(tempTag);
+      // console.log(tempTag);
       // htmlRecommendTag = htmlRecommendTag + tempTag;
       htmlRecommendTag += tempTag;
     }
