@@ -30,6 +30,7 @@
 /* 메인 */
 .tiket-main {
   position: relative;
+  padding: 25px 0;
   /* padding: 25px 0; 위 아래 25 좌우 0 */
 }
 .tiket-category {
@@ -101,6 +102,12 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+.tiket-img-nuber {
+  left: 22px;
+  bottom: 14px;
+  font-size: 7rem;
+  line-height: 8.35rem;
 }
 
 .ticket-info {

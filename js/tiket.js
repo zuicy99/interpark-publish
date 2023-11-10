@@ -29,6 +29,7 @@ window.addEventListener("load", function () {
             <a href="${obj.url}" class="tiket-link">
             <div class="tiket-img">
                 <img src="${obj.image}" alt="${obj.desc}" />
+                <div class="tiket-img-nuber">${obj.number}</div>
             </div>
             <div class="ticket-info">
                 <ul class="ticket-good-list">

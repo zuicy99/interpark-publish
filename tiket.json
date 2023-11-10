@@ -5,7 +5,8 @@
     "title": "제목입니다.",
     "desc": "설명입니다.",
     "date": "yyyy.mm.dd - yyyy.mm.dd",
-    "url": "a.html"
+    "url": "a.html",
+    "number": 1
   },
   "good_2": {
     "image": "images/tk1.gif",
